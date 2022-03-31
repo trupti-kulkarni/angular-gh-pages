@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'gh-pages-angular';
+  constructor(private router: Router){}
+
+  onclick(){
+    console.log("i am clicked")
+   this.router.navigate(['component1'])
+  }
 }

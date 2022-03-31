@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "gh-pages-angular"
+  "defaultProject": "gh-pages-angular",
+  "cli": {
+    "analytics": "c8ac5a44-d28f-444e-8277-13c445eaebc4"
+  }
 }
