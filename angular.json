@@ -123,6 +123,9 @@
               "devServerTarget": "gh-pages-angular:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
